@@ -5,7 +5,7 @@ theme = "minimal"
 
 [params]
     author = "Laura Martin"
-    description = "Web Operations Engineer"
+    description = "Operations Engineer"
     githubUsername = "surminus"
     accent = "black"
     showBorder = true
