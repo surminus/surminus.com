@@ -1,4 +1,4 @@
-baseURL = "http://usrbin.top/"
+baseURL = "https://usrbin.top/"
 languageCode = "en-us"
 title = "Laura Martin"
 theme = "minimal"
@@ -22,16 +22,21 @@ theme = "minimal"
     weight = 1
 
 [[menu.icon]]
+    url = "https://surminus.github.io"
+    name = "book"
+    weight = 2
+
+[[menu.icon]]
     url = "https://github.com/surminus/"
     name = "github"
-    weight = 2
+    weight = 3
 
 [[menu.icon]]
     url = "https://twitter.com/surminus/"
     name = "twitter"
-    weight = 3
+    weight = 4
 
 [[menu.icon]]
     url = "https://www.linkedin.com/in/laura-martin-9571a921/"
     name = "linkedin"
-    weight = 4
+    weight = 5
