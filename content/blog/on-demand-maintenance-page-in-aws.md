@@ -72,7 +72,7 @@ If we deployed this now, our target would never receive any traffic. Let's
 create an additional listener rule to allow traffic through:
 
 ```
-resource "aws_lb_listener_rule" "default-forward" {
+resource "aws_lb_listener_rule" "default_forward" {
   listener_arn = aws_alb_listener.example.arn
 
   action {
