@@ -2,6 +2,7 @@ baseURL: "https://usrbin.top/"
 languageCode: "en-us"
 title: "Laura Martin"
 theme: "minimal"
+pluralizeListTitles: false
 
 params:
   author: "Laura Martin"
@@ -24,8 +25,8 @@ menu:
     name: "Home"
     weight: 1
 
-  - url: "/post/"
-    name: "Posts"
+  - url: "/blog/"
+    name: "Blog"
     weight: 2
 
   - url: "/about/"
