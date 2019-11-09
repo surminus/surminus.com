@@ -11,9 +11,7 @@ params:
   accent: "#eb347d"
   showBorder: true
   backgroundColor: "white"
-  font: "Reem Kufi" # should match the name on Google Fonts!
-  highlight: true
-  highlightStyle: "solarized-dark"
+  font: "Raleway" # should match the name on Google Fonts!
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
