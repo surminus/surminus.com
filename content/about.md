@@ -12,7 +12,7 @@ on [GOV.UK](https://www.gov.uk), and started my career at
 [DediPower](https://www.theregister.co.uk/2011/10/04/lumison_acquires_dedipower/))
 doing support.
 
-I am interested in helping Software Engineers ship code as painfully and
+I am interested in helping Software Engineers ship code as painlessly and
 efficiently as possible, and working on ways I can make my own job
 redundant.
 
