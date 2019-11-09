@@ -15,5 +15,3 @@ efficiently as possible, and working on ways I can make my own job
 redundant.
 
 My ambition is to eventually relocate to California, and live by the sea.
-
-![Me](me.jpg)
