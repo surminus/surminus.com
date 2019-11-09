@@ -4,6 +4,9 @@ date: 2018-05-10T17:46:52+01:00
 tags: [docker, ruby]
 ---
 
+EDIT: This post is no longer relevant since Docker have introduced an `--ssh`
+flag in recent versions. See this [blog post for details](https://medium.com/@tonistiigi/build-secrets-and-ssh-forwarding-in-docker-18-09-ae8161d066).
+
 If you want to install [RubyGems](https://rubygems.org/) using [Bundler](http://bundler.io/)
 during a [Docker](https://www.docker.com/) build, life becomes a little bit more complicated
 when some of these Gems are hosted in a private Github repository.
