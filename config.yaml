@@ -31,6 +31,10 @@ menu:
     name: "About"
     weight: 3
 
+  - url: "/cv/"
+    name: "CV"
+    weight: 4
+
   icon:
   - url: "mailto:laura@surminus.com"
     name: "envelope-o"
