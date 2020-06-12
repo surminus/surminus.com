@@ -12,6 +12,7 @@ params:
   showBorder: true
   backgroundColor: "white"
   font: "Raleway" # should match the name on Google Fonts!
+  copyright: "&copy; All rights reserved. Built with [Hugo](https://gohugo.io) and [Minimal](https://github.com/calintat/minimal), deployed and hosted by [Netlify](https://www.netlify.com/)"
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
