@@ -1,8 +1,8 @@
 # /usr/bin/top
 
-Minimalist contact sheet. May add some details later for my skillset.
+My website at [www.surminus.com](https://www.surminus.com) or [usrbin.top](https://usrbin.top)
 
-This [site](http://usrbin.top) was created in [hugo](https://gohugo.io/) and runs on [Google App Engine](https://cloud.google.com/appengine/).
+Created in [hugo](https://gohugo.io/), deployed using [Netlify](https://www.netlify.com)
 
 ## Theme
 
