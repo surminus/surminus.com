@@ -3,6 +3,7 @@ languageCode: "en-us"
 title: "Laura Martin"
 theme: "minimal"
 pluralizeListTitles: false
+googleAnalytics: UA-115038298-1
 
 params:
   author: "Laura Martin"
