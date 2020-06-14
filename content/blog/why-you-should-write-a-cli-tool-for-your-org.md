@@ -7,27 +7,27 @@ At my current place of work, I am (currently) the only Operations & Platform
 focused engineer, in a technology team of around 30 people who are either
 Software Engineers, Technical Leads and Technical Architects.
 
-It's my job to ensure that everyone who is focused on Software Development
-(essentially all of the above), are able to achieve everything they need to,
+It is my job to ensure that engineers who are focused on Software Development
+(all of the above), are able to achieve everything they need to,
 without feeling too much drag from our internal tooling.
 
-A crude metaphor might be like Software Engineers being like Formula 1 drivers;
-and I have to make sure the car isn't slowing them down.
+If Software Engineers are the drivers of Formula 1 cars
+then I have to make sure that the car itself isn't slowing them down.
 
 I had dabbled with writing a command-line tool in a previous position, and when
-I joined my current place one of the first things I did was write a
-command-line tool to replace some homespun scripts used by most of the Tech
+I started here, one of the first things I did was write a
+command-line tool to replace homespun scripts used by most of the Tech
 Team.
 
 It also coincided with an interest in learning [Go](https://golang.org/), and
-so I used [Cobra](https://github.com/spf13/cobra) to help me get started.
+so I used [Cobra](https://github.com/spf13/cobra) to get me started.
 
 ## Replacing homespun scripts
 
-It's not unusual to find developers using a variety of homespun scripts to
+It's not unusual to find developers using multiple homespun scripts to
 interact with environments. For example, we had one script that listed the
 servers in our environment; another script which started an SSH session to one
-of these servers; and finally, another script which started a Rails or MySQL
+of these servers; and finally, a script which started a Rails or MySQL
 console on one of these servers.
 
 Each of these scripts had a slightly different name, and they existed in the
@@ -45,12 +45,12 @@ I worked hard to ensure it was easier to use my tool than any of the scripts,
 in the hope everyone would choose to migrate across.
 
 While I had very positive feedback, in the end we had to delete the old scripts
-so we weren't supporting two sets of tools.
+so we weren't supporting two sets of tools, and forced the remaining engineers to use the new shiny tool instead.
 
 This taught me that most engineers will not explore alternatives until it
 directly impacts them. This is because most people are focused on the work, not
-the tools, and highlighted than having engineers focused on tools _as the
-work_, is absolutely vital to reducing that drag.
+the tools, and this highlighted that having engineers focused on tools _as the
+work itself_, is absolutely vital to reducing that drag.
 
 ## Powering up
 
@@ -75,10 +75,10 @@ This performed a simple function:
    and branch (I used the [go-git library](https://github.com/go-git/go-git)
    for this)
 * Craft a link to the branch in CI
-* Open a browser to the job
+* Open a browser to the job (using the [open](https://github.com/skratchdot/open-golang) library)
 
 I also included a couple of subcommands, "list" and "console" that output the
-history of jobs and console output of the last job respectively.
+history of jobs and console output of the job respectively.
 
 It didn't take me long to write, but I had overwhelmingly positive feedback
 that it made engineers lives much easier by saving that mental workload of
@@ -109,13 +109,13 @@ Some example commands were:
 
 ## Feedback is key
 
-Probably one of the tougher things I found was receiving feedback. I would
-often find that if something didn't quite work the way someone expected the
-first time, they would fall back to the older manual way, and I would never
+Probably one of the tougher things I found was receiving feedback.
+Often, if something didn't quite work the way someone expected it to on the first go,
+they would fall back to the "traditional" way, and I would never
 find out about it to put in a fix.
 
-I also made many of the decisions in the implementation of the tool, and
-appreciate any feedback anyone provides about how they interact with a tool,
+I also made many of the decisions by myself in the implementation of the tool, and
+appreciated any feedback anyone provides about how they interact with a tool,
 and what doesn't make sense.
 
 This is still an issue I struggle with, and I think the power dynamic for
@@ -125,7 +125,7 @@ are less prone to raise bugs or UX feedback.
 
 One of other things I struggle with is advertising the capability of the tool.
 I often have to sneak into Slack threads and say "Hey! Did you know our tool
-can do that?"
+can do this?"
 
 ## What is the value to an organisation as a whole?
 
@@ -138,7 +138,7 @@ processes and Continuous Tasks that every engineer engages in.
 
 This is key to understanding exactly what small things are taking precious
 minutes away from each engineer everyday, and it also may bubble up some larger
-organisation processes that should be changed in the process.
+organisational processes that should be changed in the process.
 
 For example, we may have a deloyment process that involves going into a web
 browser and clicking "deploy". We could move this into the CLI by writing
@@ -147,8 +147,8 @@ Continuous Deployment would be a more impactful change.
 
 The next benefit is that it can be a project with minimal impact and immediate
 feedback. I think this is why I love writing CLI tools. Engineers have a place
-where they can write code for fun, without the risk, and with the potential of
-being able to unlock additional productivity for their colleagues.
+where they can write code for fun, without risk, and with the potential of
+being able to unlock productivity for their colleagues.
 
 It's also a place where everyone can come together and work on the same thing;
 and perhaps it'll help you understand how your colleagues work in one team
