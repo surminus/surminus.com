@@ -1,11 +1,11 @@
 baseURL: "https://usrbin.top/"
 languageCode: "en-us"
-title: "Laura Martin"
+title: "Lau Martin"
 theme: "minimal"
 pluralizeListTitles: false
 
 params:
-  author: "Laura Martin"
+  author: "Lau Martin"
   description: "Operations Engineer"
   githubUsername: "surminus"
   accent: "#eb347d"

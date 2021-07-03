@@ -2,7 +2,7 @@
 title: "About Me"
 ---
 
-My name is Laura. I am an Operations Engineer based in London, UK.
+My name is Lau. I am an Operations Engineer based in London, UK.
 
 I am currently working at [FutureLearn](https://www.futurelearn.com/), and have
 previously worked at the [Government Digital
