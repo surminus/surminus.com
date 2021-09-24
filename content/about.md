@@ -2,7 +2,7 @@
 title: "About Me"
 ---
 
-My name is Lau. I am an Operations Engineer based in London, UK.
+My name is Laura. I am an Operations Engineer based in London, UK.
 
 I am currently working at [Amazon Web Services](https://aws.amazon.com/), and
 have previously worked at [FutureLearn](https://www.futurelearn.com/);
