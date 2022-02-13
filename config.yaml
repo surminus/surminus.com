@@ -36,6 +36,10 @@ menu:
     name: "CV"
     weight: 4
 
+  - url: "/gpg/"
+    name: "GPG"
+    weight: 4
+
   icon:
   - url: "mailto:work@surminus.com"
     name: "envelope-o"
