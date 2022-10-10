@@ -40,6 +40,10 @@ menu:
     name: "GPG"
     weight: 4
 
+  - url: "/dreams/"
+    name: "Dreams"
+    weight: 5
+
   icon:
   - url: "mailto:work@surminus.com"
     name: "envelope-o"
