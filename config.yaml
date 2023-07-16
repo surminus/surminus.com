@@ -45,7 +45,7 @@ menu:
     weight: 5
 
   icon:
-  - url: "mailto:work@surminus.com"
+  - url: "mailto:work+website@surminus.com"
     name: "envelope-o"
     weight: 1
 
