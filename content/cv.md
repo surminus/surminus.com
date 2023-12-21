@@ -6,17 +6,23 @@ I’m an experienced operations engineer with a focus on automation and tooling.
 Most of my career has been spent working with Linux systems, and I cut my teeth
 working in customer facing support.
 
-I enjoy writing tools in Ruby, Go, and occasionally Bash. I've worked with
-continuous integration (CI) and deployment systems, and have a strong interest
-in using automation to solve problems.
+I enjoy writing Go and Ruby. I have a lot of experience with continuous
+integration (CI) and deployment systems, and have a strong interest in using
+automation to solve problems. I particularly enjoy making the lives of my
+colleagues better with intuitive tools.
 
 Much of my work in the last few years has been in an AWS environment. I feel
 comfortable working within the huge Amazon ecosystem and using the AWS SDK.
 
 ## October 2021-present: Site Reliability Engineer for [Ably](https://ably.com/)
 
-Working in the Infrastructure team to help scale the global platform
-as Ably continues to grow rapidly.
+I work in the Infrastructure team to help scale the global platform as Ably
+continues to grow rapidly.
+
+Ably is a distributed system that runs thousands of servers across multiple
+regions in AWS. The Infrastructure team is responsible for maintaining and
+ensuring uptime of the system, as well as providing tooling and support for the
+engineering teams, and leading on improvements to legacy parts of the system.
 
 ## July 2021-October 2021: Systems Development Engineer for [Amazon Web Services](https://aws.amazon.com/)
 
@@ -48,8 +54,7 @@ Achievements in this role:
   * Modernised the platform by migrating from EC2 based deployments to Amazon
     ECS, focusing on scalability and simplicity while balancing the need for
     lower cost of ownership by moving to higher value managed services.
-  * Scaled the platform to handle an unexpected spike in traffic during COVID-19,
-    going from ~200 req/s to ~600 req/s.
+  * Scaled the platform to handle an unexpected spike in traffic during COVID-19
 
 ## January 2017–March 2018: Senior Web Operations Engineer for [the Government Digital Service](https://gds.blog.gov.uk/)
 
